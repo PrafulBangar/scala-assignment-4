@@ -22,16 +22,3 @@ class PersonTest extends  WordSpec {
     }
 
 }
-/*
-val sorting: Sorting = new Sorting
-
-val sortedList: List[Int] = List(1, 2, 3, 4, 5)
-val unSortedList: List[Int] = List(2, 3, 1, 5, 4)
-val reversedList: List[Int] = List(5, 4, 3, 2, 1)
-val listWithNegativeIntegers: List[Int] = List(1, -1, 2, -2)
-
-"Insertion Sort" should {
-
-  "sort sorted list" in {
-    assert(sorting.insertionSort(sortedList) == sortedList.sortBy(identity))
-  }*/
