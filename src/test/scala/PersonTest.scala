@@ -1,33 +1,25 @@
-import Person._
+
 import org.scalatest.WordSpec
 
 
 class PersonTest extends  WordSpec {
 
-  val  personOne.name="Test"
-  val personTwo.name="Test"
-  val  personOne.age=30
-  val  personTwo.age=3
-
-  // val check=true
+  val personOne = new Person("testdhdj", 30)
+  val personTwo = new Person("teshhu", 39)
 
 
-  "Person Name" should{
-    "personOne<personTwo" in{
-      assert( Person.check == true)
+ if( personOne < personTwo)
+  "Person Name" should {
+    "personOne<personTwo" in {
+      assert(true)
     }
   }
-  "Person Name" should{
-    "personOne>personTwo" in{
-      assert( Person.check == true)
-    }
-
-    "Person Name" should{
-      "personOne<personTwo" in{
-        assert( Person.check == true)
+  if( personOne > personTwo)
+    "Person Name" should {
+      "personOne>personTwo" in {
+        assert(true)
       }
     }
-  }
 
 }
 /*

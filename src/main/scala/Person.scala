@@ -9,6 +9,7 @@ class Person(val name: String, val age: Int) extends Ordered[Person] {
     }
   }
 }
+/*
 
 object Person extends App {
 
@@ -17,3 +18,4 @@ object Person extends App {
   val check=personOne < personTwo
   print(check)
 }
+*/
