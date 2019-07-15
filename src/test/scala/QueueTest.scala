@@ -26,10 +26,4 @@ class QueueTest extends  WordSpec {
       assert(objectDequeue.performDequeue(list)==List(2,3,4))
     }
   }
-
-
-  // println( objectDouble.performEnqueue(List(1,22,3),6))
-  //println( objectSquare.performEnqueue(List(1,3,1),6))
- // println( objectDouble.performDequeue(List(1,2,3,6)))
-
 }

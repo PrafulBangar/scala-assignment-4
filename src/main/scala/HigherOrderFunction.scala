@@ -1,10 +1,10 @@
 
 object HigherOrder extends App{
 
-  println(HigherOrder.sum(sumOfInt,4,3))
+/*  println(HigherOrder.sum(sumOfInt,4,3))
   println(HigherOrder.sum(sumOfSquare,4,3))
   println(HigherOrder.sum(sumOfCube,4,3))
-
+ */
 
   def sum(f: (Int, Int) => Int,a: Int, b:Int): Int={
     f(a,b)
