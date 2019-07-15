@@ -22,8 +22,9 @@ class ListSquare extends  QueueOperations {
 
 }
 
-object QueueWork extends App{
-  val objectDouble=new ListDouble
+
+object QueueWork extends App {
+  /*  val objectDouble=new ListDouble
   val objectSquare=new ListSquare
   val objectDequeue=new ListDouble
   //val listGiven=List.empty
@@ -32,4 +33,7 @@ object QueueWork extends App{
   println( objectDouble.performDequeue(List(1,2,3,6)))
 
 
+}
+
+ */
 }
